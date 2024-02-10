@@ -16,7 +16,7 @@ def home():
 
     st.subheader("How It Works")
     st.write(
-        "The recommendation engine utilizes a sophisticated content-based approach, powered by Python, to suggest movies that closely match your chosen film's characteristics. By analyzing various attributes such as genres, keywords, and cast (to name a few), this system ensures that your recommendations are both relevant and engaging. Behind the scenes, our system seamlessly integrates with a PostgreSQL database at the backend, fetching movie results and leveraging advanced algorithms to deliver personalized recommendations tailored to your preferences."
+        "The recommendation engine utilizes a sophisticated content-based approach, powered by Python, to suggest movies that closely match your chosen film's characteristics. By analyzing various attributes such as genres, keywords, and cast (to name a few), this system ensures that your recommendations are both relevant and engaging. Behind the scenes, this system seamlessly integrates with a PostgreSQL database at the backend, fetching movie results and leveraging advanced algorithms to deliver personalized recommendations tailored to your preferences."
     )
 
     # Explore Movies Section
