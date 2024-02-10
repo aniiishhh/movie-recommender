@@ -5,7 +5,7 @@ def home():
     # Introduction
     st.title("The Movie Recommendation App!")
     st.write(
-        "Welcome to Movie Recommender, your ultimate destination for discovering new movies and exploring vast collections of cinematic treasures. Our app utilizes cutting-edge technology to bring you personalized movie recommendations and advanced filtering options to cater to your unique tastes."
+        "Welcome to Movie Recommender, your ultimate destination for discovering new movies and exploring vast collections of cinematic treasures. This app utilizes cutting-edge technology to bring you personalized movie recommendations and advanced filtering options to cater to your unique tastes."
     )
 
     # Recommendations Section
@@ -16,7 +16,7 @@ def home():
 
     st.subheader("How It Works")
     st.write(
-        "Our recommendation engine utilizes a sophisticated content-based approach, powered by Python, to suggest movies that closely match your chosen film's characteristics. By analyzing various attributes such as genres, keywords, and cast (to name a few), our system ensures that your recommendations are both relevant and engaging. Behind the scenes, our system seamlessly integrates with a PostgreSQL database at the backend, fetching movie results and leveraging advanced algorithms to deliver personalized recommendations tailored to your preferences."
+        "The recommendation engine utilizes a sophisticated content-based approach, powered by Python, to suggest movies that closely match your chosen film's characteristics. By analyzing various attributes such as genres, keywords, and cast (to name a few), this system ensures that your recommendations are both relevant and engaging. Behind the scenes, our system seamlessly integrates with a PostgreSQL database at the backend, fetching movie results and leveraging advanced algorithms to deliver personalized recommendations tailored to your preferences."
     )
 
     # Explore Movies Section
@@ -27,7 +27,7 @@ def home():
 
     st.subheader("Query Insights")
     st.write(
-        "Tech enthusiasts can delve into the inner workings of our app by exploring dynamically generated database queries. Witness how user inputs translate into complex SQL queries that power our movie search functionality."
+        "Tech enthusiasts can delve into the inner workings of this app by exploring dynamically generated database queries. Witness how user inputs translate into complex SQL queries that power this movie search functionality."
     )
 
     st.subheader("Sorting Options")
