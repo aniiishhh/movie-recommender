@@ -13,7 +13,7 @@ def load_data():
     conn = None
     try:
         conn = connect()
-        with open("../Model/top_recomm_idx.pkl", "rb") as f:
+        with open("./Model/top_recomm_idx.pkl", "rb") as f:
             top_recomm_idx = pickle.load(f)
         return conn, top_recomm_idx
     except Exception as e:
