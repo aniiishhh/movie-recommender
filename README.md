@@ -8,7 +8,8 @@ Welcome to the Movie Recommendation App! This application leverages a sophistica
 
 The dataset used in this application is an extensively filtered and cleaned version of the [Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) from Kaggle. This dataset serves as the foundation for generating personalized movie recommendations tailored to each user's tastes.
 
-To experience the app firsthand, visit the web app link created with Streamlit: [Movie Recommendation App](https://recommend-movies-ak.streamlit.app/)
+To experience the app firsthand, visit the web app link created with Streamlit: 
+[Movie Recommendation App](https://recommend-movies-ak.streamlit.app/)
 
 ---
 
