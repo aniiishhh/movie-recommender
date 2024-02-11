@@ -8,7 +8,8 @@ Welcome to the Movie Recommendation App! This application leverages a sophistica
 
 The dataset used in this application is an extensively filtered and cleaned version of the [Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) from Kaggle. This dataset serves as the foundation for generating personalized movie recommendations tailored to each user's tastes.
 
-To experience the app firsthand, visit the web app link created with Streamlit: 
+To experience the app firsthand, visit the web app link created with Streamlit:
+
 [Movie Recommendation App](https://recommend-movies-ak.streamlit.app/)
 
 ---
@@ -29,7 +30,7 @@ To experience the app firsthand, visit the web app link created with Streamlit:
 
 - **Backend:** PostgreSQL database is used for efficient data storage and retrieval.
 - **Frontend:** Python, along with Streamlit, powers the frontend interface, providing a seamless and interactive user experience.
-- **Data Processing:** Various Python scripts handle data processing tasks, ensuring the dataset is clean and optimized for recommendation generation.
+- **Data Processing:** Various Python scripts handle data processing tasks, ensuring the dataset is clean and optimized for recommendation generation. TFIDF Vectorizer is used to generate text vectors which are then processed to generate recommendations. Text preprocessing steps such as stemming, lowercasing, and tokenizing are used to standardize the textual data and improve the accuracy of the recommendation engine.
 - **API Integration:** The app integrates with the TMDB API to fetch additional movie data and enhance the recommendation process.
 
 ---
