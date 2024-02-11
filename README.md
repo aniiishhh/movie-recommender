@@ -1,8 +1,8 @@
-****Movie Recommendation App****
+# Movie Recommendation App
 
 ---
 
-**Introduction:**
+## Introduction:
 
 Welcome to the Movie Recommendation App! This application leverages a sophisticated content-based recommendation engine to suggest movies based on user preferences and selected films. With a clean and intuitive interface, users can effortlessly explore a vast collection of movies and discover new favorites.
 
@@ -12,7 +12,7 @@ To experience the app firsthand, visit the web app link created with Streamlit: 
 
 ---
 
-**Features:**
+## Features:
 
 - **Interactive Recommendations:** Users can explore movie recommendations by selecting a film of their choice and applying various filters such as genres, minimum rating, popularity, release year, countries, and languages.
 
@@ -24,7 +24,7 @@ To experience the app firsthand, visit the web app link created with Streamlit: 
 
 ---
 
-**Tech Stack:**
+## Tech Stack:
 
 - **Backend:** PostgreSQL database is used for efficient data storage and retrieval.
 - **Frontend:** Python, along with Streamlit, powers the frontend interface, providing a seamless and interactive user experience.
@@ -33,7 +33,7 @@ To experience the app firsthand, visit the web app link created with Streamlit: 
 
 ---
 
-**Acknowledgments and References:**
+## Acknowledgments and References: 
 
 1. Dataset Source: [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
 2. Frontend and Web App Hosting: [Streamlit](https://streamlit.io/)
