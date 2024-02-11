@@ -7,6 +7,8 @@ from explore import *
 from home import *
 from db_conn import connect
 
+st.set_page_config(page_title="Movie Recommender", page_icon="🤖")
+
 
 @st.cache_resource(ttl=3600)
 def load_data():
