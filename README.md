@@ -1,4 +1,4 @@
-# Movie Recommendation App
+# Content-Based Movie Recommendation App
 
 ---
 
