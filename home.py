@@ -11,4 +11,4 @@ def home():
         "Welcome to Movie Recommender, your ultimate destination for discovering new movies and exploring vast collections of cinematic treasures. This app utilizes cutting-edge technology to bring you personalized movie recommendations and advanced filtering options to cater to your unique tastes."
     )
     st.write("")
-    st.image("./Images/home_collage.jpg")
+    st.image("home_collage.jpg")
