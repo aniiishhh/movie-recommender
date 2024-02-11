@@ -8,6 +8,10 @@ def recomm(_conn, top_recommendations):
 
     st.title("Movie Recommender! 🤖")
 
+    st.write(
+        "Get ready to dive into a world of personalized movie recommendations. Simply enter the title of your favorite movie, set the required filters, and explore a curated selection of similar films tailored to your preferences. With over 22,000 movies spanning various genres and languages, there's something for everyone."
+    )
+
     cur.execute("SELECT revised_title FROM detailed;")
 
     movie_titles = [row[0] for row in cur.fetchall()]

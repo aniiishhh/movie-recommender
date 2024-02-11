@@ -8,7 +8,12 @@ def explore(_conn):
     cur = _conn.cursor()
 
     st.title("Explore Movies 🔎")
-    st.subheader("Enter only the necessary movie filters")
+
+    st.write(
+        "Get ready to embark on a cinematic journey through an extensive database of films. With a plethora of filtering options at your disposal, you can tailor your search to find movies that meet your specific criteria."
+    )
+
+    st.subheader("NOTE: Enter only the necessary movie filters")
 
     (
         unique_genres,
