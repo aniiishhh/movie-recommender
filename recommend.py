@@ -1,3 +1,7 @@
+"""
+The Recommendations Section.
+"""
+
 import streamlit as st
 from recomm_helper import *
 

@@ -1,3 +1,7 @@
+"""
+A Universal connection function that connects to a postgres database and returns the connection object.
+"""
+
 import psycopg2
 import streamlit as st
 

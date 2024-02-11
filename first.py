@@ -1,3 +1,7 @@
+"""
+The Home Page through from where all pages can be accessed.
+"""
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pickle

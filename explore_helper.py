@@ -1,3 +1,7 @@
+"""
+Helper function implementation for the Explore Movies Section.
+"""
+
 import streamlit as st
 
 
@@ -163,7 +167,7 @@ def display_movies(movie_ids, cur):
                         if poster_path:
                             st.image(poster_path, width=200)
                         else:
-                            st.image("no-poster-available.jpg", width=200)
+                            st.image("./Images/no-poster-available.jpg", width=200)
                         st.markdown(f"[{movie_row[12]}]({movie_url}{movie_id})")
             with col2:
                 if i + 1 < len(movie_ids):
@@ -176,7 +180,7 @@ def display_movies(movie_ids, cur):
                         if poster_path:
                             st.image(poster_path, width=200)
                         else:
-                            st.image("no-poster-available.jpg", width=200)
+                            st.image("./Images/no-poster-available.jpg", width=200)
                         st.markdown(f"[{movie_row[12]}]({movie_url}{movie_id})")
 
             with col3:
@@ -190,5 +194,5 @@ def display_movies(movie_ids, cur):
                         if poster_path:
                             st.image(poster_path, width=200)
                         else:
-                            st.image("no-poster-available.jpg", width=200)
+                            st.image("./Images/no-poster-available.jpg", width=200)
                         st.markdown(f"[{movie_row[12]}]({movie_url}{movie_id})")

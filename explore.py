@@ -1,3 +1,7 @@
+"""
+The Explore Movies Section.
+"""
+
 import streamlit as st
 from explore_helper import *
 import datetime
@@ -47,7 +51,7 @@ def explore(_conn):
         )
     with col2B:
         selected_crew = st.selectbox(
-            "Crew", [""] + unique_crews, help="Select single crew", index=0
+            "Director", [""] + unique_crews, help="Select single crew", index=0
         )
     with col2C:
         selected_company = st.selectbox(

@@ -1,3 +1,7 @@
+"""
+Inserts detailed movie data into the postgres database from csv file.
+"""
+
 import csv
 from psycopg2 import sql
 import ast
