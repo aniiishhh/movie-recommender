@@ -133,6 +133,9 @@ def return_recommendations2(
         ordered_rows, n, countries, genres, languages, popularity, vote, year
     )
 
+    if len(top_indices) <= 0:
+        return []
+
     filtered_idx_tuple = tuple(top_indices)
     cur.execute(
         """SELECT movie_id, idx FROM filters WHERE idx IN %s""", (filtered_idx_tuple,)
