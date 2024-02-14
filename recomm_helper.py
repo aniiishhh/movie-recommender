@@ -175,7 +175,7 @@ def return_filtered_rows(rows, n, countries, genres, languages, popularity, vote
 
 
 def display_movies(movie_ids, cur):
-    if not movie_ids:
+    if not movie_ids or len(movie_ids) <= 0:
         st.write("No movies to display on this page.")
     else:
         movie_url = "https://www.themoviedb.org/movie/"
